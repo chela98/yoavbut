@@ -23,6 +23,15 @@ class ButRestApiTest {
 		
 		assertEquals(true, sonuc);
 	}
+	
+	@Test
+	void testEkle2() {
+		String dersAd = "emre";
+		
+		Boolean sonuc = ButRestApi.ekle(dersAd);
+		
+		assertEquals(true, sonuc);
+	}
 
 	@Test
 	void testSil() {
